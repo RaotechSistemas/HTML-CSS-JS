@@ -1,0 +1,21 @@
+body{
+    background-color: beige;
+    margin: 10px;
+}
+h1{
+    text-align: center;
+    margin: 100px;
+}
+nav > ul{
+    position: fixed;
+    margin: 10px;
+    background-color: black;
+    color: aliceblue;
+}
+.container{
+    position: static;
+    margin:100px;
+}
+li {
+    display: inline-block;
+}
