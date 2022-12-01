@@ -51,3 +51,8 @@ nav {
 .menu li:hover ul, .menu li.over ul{display:inline-block;}
 
 .menu li ul li{border:1px solid #c0c0c0; display:inline-block; width:150px;}
+
+.artigo{
+    background-color: gray;
+    padding: 10px;
+}

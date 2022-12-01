@@ -4,11 +4,12 @@
     <head>
     <meta name="description" content="Página principal do Site">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>4-Med</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="estilos/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="estilos/estilos.css">
-    <link rel="shortcut icon" href="\img\favicon.ico" type="image/x-icon"/>    
+    <link rel="shortcut icon" href="\img\favicon.ico" type="image/x-icon"/>   
+    <title>4-Med</title>
+
     </head>
 
     <body background="\img\bg.jpg" bgproperties="fixed" aling="Center">             
@@ -115,26 +116,39 @@
             <section>
                 <h1>SISTEMA INTEGRADO PARA</h1>
             <H2>CONTROLE DE CLÍCINAS MÉDICAS</H2>
-                <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni eum, saepe adipisci nisi non cumque sunt minima nemo illum. Neque provident architecto nulla quasi officia, voluptates explicabo inventore excepturi ut.
-                </p>
+                <div>
+                    <label for="item">Novo Item: </label>
+                    <input type="text" id="item" name="item">
+                    <button>Adicionar</button>
+                </div>
+                <ol>
+                    <li>José</li>
+                    <li>Maria</li>
+                </ol>
             </section>
-            <article>
-                <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni eum, saepe adipisci nisi non cumque sunt minima nemo illum. Neque provident architecto nulla quasi officia, voluptates explicabo inventore excepturi ut.
-                </p>
-            </article>
-            <form action="#">
-                <div>
-                    <label for="usuario">Usuario</label>
-                    <input type="text" id="usuario" name="usuario">
-                </div>
-                <div>
-                    <label for="senha">Senha</label>
-                    <input type="password" id="senha" name="senha">
-                </div>
+            <article class="artigo">
+                <form name="formCadastro" action="#">
+                    <div>
+                        <label for="usuario">Usuário: </label>
+                        <input type="text" id="usuario" name="usuario">
+                        <span></span>
+                    </div>
 
-            </form>
+                    <div>
+                        <label for="senha">Senha: </label>
+                        <input type="password" id="senha" name="senha">
+                        <span></span>
+                    </div>
+
+                    <div>
+                        <label for="email">E-mail: </label>
+                        <input type="email" id="email" name="email">
+                        <span></span>
+                    </div>
+                    <button>Cadastrar</button>
+                </form>
+            </article>
+
             <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni eum, saepe adipisci nisi non cumque sunt minima nemo illum. Neque provident architecto nulla quasi officia, voluptates explicabo inventore excepturi ut.
             </p>
@@ -172,7 +186,7 @@
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni eum, saepe adipisci nisi non cumque sunt minima nemo illum. Neque provident architecto nulla quasi officia, voluptates explicabo inventore excepturi ut.
             </p>
         </main>
-
+        <script src="scripts/scripts.js"></script> 
 </body>
 
 </html>
