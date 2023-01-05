@@ -3,36 +3,33 @@
 body{
     font-family: arial, helvetica, sans-serif;
     font-size: 12px;
+    align-content: center;
+    width: 60%;
+    margin: auto;
+    
+}
+
+
+
+button {
+    width: 300px;
+    height:150px;
+    margin:5px auto;
+    border-radius: 20px;
+    border-style: none;
+    position: sticky;
+    font-size: 4em;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+button:hover{
+    background-color: rgb(83, 83, 81);
+}
+button a:hover{
+    color: white;
+     
 }
 a{
-    display:inline-block;
     text-decoration:none;
-    padding:6px 4px;
-    border:0px solid #ccc;
-    background-color:#f2f2f2;
-    color:#333;
-    font:15px arial, sans-serif;
+    color: rgb(110, 179, 240);
 }
-a:hover{
-    border-color:#aaa;
-
-}
-
-nav{
-display: flex;
-justify-content: center;
-}
-
-.menu{list-style:none; border:1px solid #c0c0c0; float:left;}
-
-.menu li{position:relative; float:left; border-right:1px solid #c0c0c0; }
-
-.menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
-
-.menu li a:hover{background:#333; color:#fff; -moz-box-shadow:0 3px 10px 0 #CCC; -webkit-box-shadow:0 3px 10px 0 #ccc; text-shadow:0px 0px 5px #fff; }
-
-.menu li   ul{position:absolute; top:25px; left:0; background-color:#fff; display:none; }
-
-.menu li:hover ul, .menu li.over ul{display:block;}
-
-.menu li ul li{border:1px solid #c0c0c0; display:block; width:150px;}
